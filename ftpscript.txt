@@ -1,0 +1,57 @@
+open golf.xplaid.net
+billkamm
+ila3243
+ascii
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\2004-01-15_TPG_Interview.html /usr/home/billkamm/html/sp3c/2004-01-15_TPG_Interview.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\2004-05-14_CAL_Interview.html /usr/home/billkamm/html/sp3c/2004-05-14_CAL_Interview.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\archive2005.html /usr/home/billkamm/html/sp3c/archive2005.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\autoaway.html /usr/home/billkamm/html/sp3c/autoaway.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\bullet.html /usr/home/billkamm/html/sp3c/bullet.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-c_wint04.html /usr/home/billkamm/html/sp3c/cal-c_wint04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-fall03.html /usr/home/billkamm/html/sp3c/cal-fall03.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-im_wint05.html /usr/home/billkamm/html/sp3c/cal-im_wint05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-i_summer05.html /usr/home/billkamm/html/sp3c/cal-i_summer05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-m_fall04.html /usr/home/billkamm/html/sp3c/cal-m_fall04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-m_summer04.html /usr/home/billkamm/html/sp3c/cal-m_summer04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-m_wint04.html /usr/home/billkamm/html/sp3c/cal-m_wint04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\cal-m_wint05.html /usr/home/billkamm/html/sp3c/cal-m_wint05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\community.html /usr/home/billkamm/html/sp3c/community.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\configmaking.html /usr/home/billkamm/html/sp3c/configmaking.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\heat.html /usr/home/billkamm/html/sp3c/heat.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\history.html /usr/home/billkamm/html/sp3c/history.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\html_backup_071809 /usr/home/billkamm/html/sp3c/html_backup_071809
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\html_backup_072709 /usr/home/billkamm/html/sp3c/html_backup_072709
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\igl-u_summer04.html /usr/home/billkamm/html/sp3c/igl-u_summer04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\index.html /usr/home/billkamm/html/sp3c/index.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\interviews.html /usr/home/billkamm/html/sp3c/interviews.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\inthenews.html /usr/home/billkamm/html/sp3c/inthenews.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\kobalt.html /usr/home/billkamm/html/sp3c/kobalt.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\leagues.html /usr/home/billkamm/html/sp3c/leagues.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\leagues2005.html /usr/home/billkamm/html/sp3c/leagues2005.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\maplinks.html /usr/home/billkamm/html/sp3c/maplinks.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\method.html /usr/home/billkamm/html/sp3c/method.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\multi-vent.html /usr/home/billkamm/html/sp3c/multi-vent.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\oldroster.html /usr/home/billkamm/html/sp3c/oldroster.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\oldsp3c.html /usr/home/billkamm/html/sp3c/oldsp3c.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\pastchamps.html /usr/home/billkamm/html/sp3c/pastchamps.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\quotes.html /usr/home/billkamm/html/sp3c/quotes.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\recruit.html /usr/home/billkamm/html/sp3c/recruit.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\resources.html /usr/home/billkamm/html/sp3c/resources.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\roster.html /usr/home/billkamm/html/sp3c/roster.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\s0ckmnky.html /usr/home/billkamm/html/sp3c/s0ckmnky.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\scripts.html /usr/home/billkamm/html/sp3c/scripts.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\server.html /usr/home/billkamm/html/sp3c/server.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\sta-g_spring05.html /usr/home/billkamm/html/sp3c/sta-g_spring05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\sta-g_wint05.html /usr/home/billkamm/html/sp3c/sta-g_wint05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg-l_wint04.html /usr/home/billkamm/html/sp3c/tpg-l_wint04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg-m_summer04.html /usr/home/billkamm/html/sp3c/tpg-m_summer04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg-u_fall04.html /usr/home/billkamm/html/sp3c/tpg-u_fall04.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg-u_summer05.html /usr/home/billkamm/html/sp3c/tpg-u_summer05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg-u_wint05.html /usr/home/billkamm/html/sp3c/tpg-u_wint05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg2-m_spring05.html /usr/home/billkamm/html/sp3c/tpg2-m_spring05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg3v3-m_summer05.html /usr/home/billkamm/html/sp3c/tpg3v3-m_summer05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg3v3-m_wint05.html /usr/home/billkamm/html/sp3c/tpg3v3-m_wint05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg3v3-u_summer05.html /usr/home/billkamm/html/sp3c/tpg3v3-u_summer05.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\tpg3v3_summer09.html /usr/home/billkamm/html/sp3c/tpg3v3_summer09.html
+put C:\Docume~1\Owner\MyDocu~1\billkamm.net\root\sp3c\ventrilotips.html /usr/home/billkamm/html/sp3c/ventrilotips.html
+close

@@ -1,0 +1,1348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Past DOD League Champions</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<META name="author" content="Bill Kammermeier">
+	<META name="generator" content="notepad, Homesite, and Dreamweaver">
+	<META name="keywords" content="Bill, Kammermeier, Sp3c|aLisT, Sp3c, DOD, Half-Life, Day of Defeat, MethoD, HeaT, BuLLeT, Quackle, QuackleDuck S0cKMkY, anzio, bridge2, jagd, roster">
+	<META name="description" content="Sp3c|aLisT DOD Team Roster">
+	<link href="index.css" rel="stylesheet" type="text/css">
+	
+	<script language="JavaScript">
+	// The function executes when the page first loads
+	function loadEvents()
+	{
+		displayCollapseIcons();
+		collapseInactiveLeagues();
+	}
+
+	// This function will disaply all of the expand/collapse icons
+	function displayCollapseIcons()
+	{
+		// Make the expand/collapse images visible (they start hidden, so JavaScript disabled browsers don't display them)
+		calsourceToggle.style.visibility = "visible";
+		tpg2Toggle.style.visibility = "visible";
+		tpg3v3sourceToggle.style.visibility = "visible";
+		sldlToggle.style.visibility = "visible";
+		ss5v5sourceToggle.style.visibility = "visible";
+		tpgToggle.style.visibility = "visible";
+		tpg3v3Toggle.style.visibility = "visible";
+		cplToggle.style.visibility = "visible";
+		calToggle.style.visibility = "visible";
+		tpg7v7Toggle.style.visibility = "visible";
+		cevoToggle.style.visibility = "visible";
+		staToggle.style.visibility = "visible";
+	}
+	
+	// This function will collapse by default all of the inactive leagues
+	function collapseInactiveLeagues()
+	{
+		// Collapse inactive leagues
+		// DOD Source
+		setVisibility('divSLDL', 'sldlToggle', 'collapse');
+		setVisibility('divCALS', 'calsourceToggle', 'collapse');
+		setVisibility('divTPG2', 'tpg2Toggle', 'collapse');
+		setVisibility('divTPG3v3source', 'tpg3v3sourceToggle', 'collapse');
+		setVisibility('divSS5v5S', 'ss5v5sourceToggle', 'collapse');
+		
+		// DOD 1.3
+		//setVisibility('divTPG3v3', 'tpg3v3Toggle', 'collapse');
+		setVisibility('divCEVO', 'cevoToggle', 'collapse');
+		setVisibility('divCAL', 'calToggle', 'collapse');
+		setVisibility('divCPL', 'cplToggle', 'collapse');
+		setVisibility('divTPG7v7', 'tpg7v7Toggle', 'collapse');
+		setVisibility('divSTA', 'staToggle', 'collapse');
+	}
+	
+	function setVisibility(sectionToToggle, toggleImage, action)
+	{
+		// Get the actual controls by their ID attribute
+		var section = document.getElementById(sectionToToggle);
+		var sectionDisable = document.getElementById(sectionToToggle + "disabled");
+		var toggleControl = document.getElementById(toggleImage);
+	
+		// If we are to toggle the visibility then determine if we should collapse or expand
+		if (action != "expand" && action != "collapse")
+		{
+			if (section.style.visibility=="hidden")
+			{
+				action = "expand";
+			}
+			else
+			{
+				action = "collapse";
+			}
+		}
+	
+		// Collapse or expand the section
+		if (action == "expand")
+		{
+			section.style.visibility="visible";
+			section.style.display = "block";
+			toggleControl.src = "minus.gif";
+			sectionDisable.style.visibility="hidden";
+			sectionDisable.style.display = "none";
+		}
+		else if (action == "collapse")
+		{
+			section.style.visibility="hidden";
+			section.style.display = "none";
+			toggleControl.src = "plus.gif";
+			sectionDisable.style.visibility="visible";
+			sectionDisable.style.display = "block";
+		}
+	}
+</script>
+	
+</head>
+
+<body onload="loadEvents();" class="BodyClass" link="#990000" vlink="#990000" alink="#990000"><a name="top"></a>
+
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr><!-- LOGO -->
+<td align="left" valign="bottom" colspan="2"><IMG src="sp3chead.gif" border=0></td><!-- END LOGO -->
+</tr>
+</table><table border="1" bordercolor="black" cellpadding="2" cellspacing="0" width="700">
+<tr>
+<!-- INFOLINE -->
+	<td align="left" valign="top" class="infoline" colspan="2"> All images and code (c) Copyright 
+      <A class=nounderline onmouseover=blur(); onclick=blur(); onmouseout=blur(); href="mailto:clarksfan316@yahoo.com">Bill 
+      Kammermeier</a>. &nbsp;You may also contact me on <A class=nounderline onmouseover=blur(); onclick=blur(); onmouseout=blur(); href="aim:goim?Screenname=BuLLeTFoDDeR">AOL 
+      IM</a>. &nbsp;Enjoy your stay! </td>
+<!-- END INFOLINE -->	  
+</tr>
+<tr>
+<!-- BODY -->
+<!-- MENU -->
+	<td align="left" valign="top" class="tablemenu" NOWRAP width="107">
+	<a href="index.html"><img src="menu-home.gif" border="0" alt=""></a><br>
+	<a href="oldsp3c.html" class="menulink">Old Sp3c Info</a><br>
+	<a href="history.html" class="menulink">Match History</a><br>
+	<a href="server.html" class="menulink">Server Info</a><br>
+	<a href="resources.html" class="menulink">Resources</a><br>
+	<a href="scripts.html" class="menulink">1.3 Config Scripts</a><br>
+	<a href="quotes.html" class="menulink">1.3 Quotes</a><br>
+	
+	<br>
+	<img src="menu-roster.gif" border="0" alt="-- ROSTER --"><br>
+	<a href="roster.html" class="menulink"><b>Full Roster</b></a><br>
+	<!--
+	<a href="http://www.tpgleague.org/dods6/team/52/" class="menulink">TPG DOD:S</a><br>
+	<a href="http://www.tpgleague.org/dods3/team/258/" class="menulink">TPG 3v3 Source</a><br>
+	-->
+	<a href="http://www.tpgleague.org/dod6/team/49/" class="menulink">TPG 6v6</a><br>
+	<a href="http://www.tpgleague.org/dod3/team/57/" class="menulink">TPG 3v3</a><br>
+
+	<br>	
+	<img src="menu-links.gif" border="0" alt="-- LINKS --"><br>
+	<a href="maplinks.html" class="menulink">Map Downloads</a><br>
+	<a href="ventrilotips.html" class="menulink">Ventrilo Tips</a><br>
+	<a href="leagues.html" class="menulink">DOD Leagues</a><br>
+	<a href="pastchamps.html" class="menulink">Past Champs</a><br>
+	<a href="community.html" class="menulink">Community Sites</a><br>
+	</td>
+<!-- END MENU -->
+	
+	<td align="left" valign="top" class="tablebody" width="600">
+<!-- START NEWS --------------------------------------------------------------------------->
+
+<!--
+TO DO:
+- Dead Leagues will be collapsed by default
+- Leagues will auto-expand when the TOC entry is clicked
+-->
+
+<h2>Past DOD League Champions</h2>
+
+<div id="divTOC">
+<b>DOD Source Leagues</b>
+<ul>
+	<li><a href="#sldl" class="tablelink" onClick="setVisibility('divSLDL', 'sldlToggle', 'expand');"><span style="color:gray">SLDL</span></a> <span style="color:gray"><i>(switched from DOD)</i></span></li>
+	<li><a href="#calsource" class="tablelink"><span style="color:gray">CAL</span></a></li>
+	<li><a href="#tpg2" class="tablelink" onClick="setVisibility('divTPG2', 'tpg2Toggle', 'expand');"><span style="color:gray">TPG</span></a> <span style="color:gray"><i>(switched from DOD)</i></span></li>
+	<li><a href="#tpg3v3source" class="tablelink" onClick="setVisibility('divTPG3v3source', 'tpg3v3sourceToggle', 'expand');"><span style="color:gray">TPG 3v3</span></a></li>
+	<li><a href="#ss5v5source" class="tablelink" onClick="setVisibility('divSS5v5S', 'ss5v5sourceToggle', 'expand');"><span style="color:gray">CAL Steel Series 5v5 Tournament</span></a></li>
+</ul>
+<!------ Future Leagues --------
+
+-------------------------------->
+
+<b>DOD Leagues</b>
+<ul>
+	<li><a href="#tpg" class="tablelink" onClick="setVisibility('divTPG', 'tpgToggle', 'expand');">TPG</a></li>
+	<li><a href="#tpg3v3" class="tablelink" onClick="setVisibility('divTPG3v3', 'tpg3v3Toggle', 'expand');">TPG 3v3</a></li>
+	<li><a href="#cevo" class="tablelink" onClick="setVisibility('divCEVO', 'cevoToggle', 'expand');"><span style="color:gray">CEVO</span></a></li>
+	<li><a href="#cal" class="tablelink" onClick="setVisibility('divCAL', 'calToggle', 'expand');"><span style="color:gray">CAL</span></a></li>
+	<li><a href="#cpl" class="tablelink" onClick="setVisibility('divCPL', 'cplToggle', 'expand');"><span style="color:gray">CPL</span></a></li>
+	<li><a href="#tpg2" class="tablelink" onClick="setVisibility('divTPG2', 'tpg2Toggle', 'expand');"><span style="color:gray">TPG2</span></a> <span style="color:gray"><i>(switched to DOD Source)</i></span></li>
+	<li><a href="#tpg7v7" class="tablelink" onClick="setVisibility('divTPG7v7', 'tpg7v7Toggle', 'expand');"><span style="color:gray">TPG 7v7</span></a></li>
+	<li><a href="#sldl" class="tablelink" onClick="setVisibility('divSLDL', 'sldlToggle', 'expand');"><span style="color:gray">SLDL</span></a> <span style="color:gray"><i>(switched to DOD Source)</i></span></li>
+	<li><a href="#sta" class="tablelink" onClick="setVisibility('divSTA', 'staToggle', 'expand');"><span style="color:gray">STA</span></a></li>
+</ul>
+</div>
+
+
+
+<a name="sldl"></a>
+<div id="divSLDLheader" width="555">
+	<img id="sldlToggle" onDoubleClick="setVisibility('divSLDL', 'sldlToggle', 'toggle');" onClick="setVisibility('divSLDL', 'sldlToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">Sunlit's DOD League</h3>
+</div>
+<div id="divSLDL" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Intermediate  &nbsp;&nbsp; &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Upper &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp &nbsp; &nbsp;&nbsp; &nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="3"><b>League Started With DOD 1.3</b></td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl_scores.php" class="tablelink" style="font-size:12pt">1</a></td>
+	<td valign="top">GIMP</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl2_scores.php" class="tablelink" style="font-size:12pt">2</a></td>
+	<td valign="top">GIMP</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl3_scores.php" class="tablelink" style="font-size:12pt">3</a></td>
+	<td valign="top">Gun Slingin' Southerners</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl4_scores.php" class="tablelink" style="font-size:12pt">4</a></td>
+	<td valign="top">Gun Slingin' Southerners</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl5_schedule.php" class="tablelink" style="font-size:12pt"><span title="1/8/05 - 4/23/05">5</span></a></td>
+	<td valign="top">Devil's Brigade</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl6_schedule.php" class="tablelink" style="font-size:12pt"><span title="7/21/05 - 10/20/05">6</span></a></td>
+	<td valign="top">GIMP</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="3"><b>League Switched to DOD Source</b></td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl7_schedule.php" class="tablelink" style="font-size:12pt"><span title="1/12/06 - 3/23/06">7</span></a></td>
+	<td valign="top">GIMP</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl8_schedule.php" class="tablelink" style="font-size:12pt"><span title="4/9/06 - 7/16/06">8</span></a></td>
+	<td valign="top">TooN</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl9_main.php" class="tablelink" style="font-size:12pt"><span title="8/6/06 - 11/5/06">9</span></a></td>
+	<td valign="top">82nd Rangers</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">De Novo</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl10_main.php" class="tablelink" style="font-size:12pt"><span title="11/12/06 - 2/25/07">10</span></a></td>
+	<td valign="top">Leathernecks</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Pub Starz</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl11_main.php" class="tablelink" style="font-size:12pt"><span title="3/11/07 - 6/24/07">11</span></a></td>
+	<td valign="top">Let God Sort'em Out</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">imperfection</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl12_main.php" class="tablelink" style="font-size:12pt"><span title="7/15/07 - 10/21/07">12</span></a></td>
+	<td valign="top">Storm Troopers</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl13_main.php" class="tablelink" style="font-size:12pt"><span title="10/28/07 - 2/10/08">13</span></a></td>
+	<td valign="top">pub$tarZ</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl14_main.php" class="tablelink" style="font-size:12pt"><span title="2/24/08 - 6/8/08">14</span></a></td>
+	<td valign="top">Omega Gaming</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl15_main.php" class="tablelink" style="font-size:12pt"><span title="6/15/08 - 9/21/08">15</span></a></td>
+	<td valign="top">pcp>></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl16_schedule.php" class="tablelink" style="font-size:12pt"><span title="10/19/08 - 1/25/09">16</span></a></td>
+	<td valign="top">T3 Gaming</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">JtF2</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl17_main.php" class="tablelink" style="font-size:12pt"><span title="2/22/09 - 6/14/09">17</span></a></td>
+	<td valign="top">TEAM COLEMAN</td>
+	<td valign="top">B0o</td>
+	<td valign="top">N`sync</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl18_schedule.php" class="tablelink" style="font-size:12pt"><span title="7/12/09 - 10/18/09">18</span></a></td>
+	<td valign="top">sv_</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">(SEX)</td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl19_schedule.php" class="tablelink" style="font-size:12pt"><span title="11/22/09 - 3/14/10">19</span></a></td>
+	<td valign="top">[TCB]</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">choriZ0! </td>
+</tr>
+<tr>
+	<td valign="top"><a href="http://www.sunlitgames.net/sldl20_schedule.php" class="tablelink" style="font-size:12pt"><span title="3/28/10 - 7/25/10">20</span></a></td>
+	<td valign="top">Guerilla Partisans</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">deadlift</td>
+</tr>
+<tr>
+	<td valign="top" colspan="4"><b>League Canceled After Season 20</b></td>
+</tr>
+</table>
+<font size="-1"><i>Notes: TooN and De Novo are the same team just renamed.   Pub Starz and imperfection are the same team just renamed.</i></font>
+</div>
+<div id="divSLDLdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="sldlToTop" src="top.gif" border="0"></a><p>
+
+
+
+<a name="calsource"></a>
+<div id="divCALSheader" width="555">
+	<img id="calsourceToggle" onDoubleClick="setVisibility('divCALS', 'calsourceToggle', 'toggle');" onClick="setVisibility('divCALS', 'calsourceToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">Cyberahlete Amateur League (DOD Source)</h3>
+</div>
+<div id="divCALS" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Open &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Intermediate &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Main &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Invite &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+</tr>
+<tr>
+	<td valign="top">1</td>
+	<td valign="top">Grand Clan</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">ostrich</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">2</td>
+	<td valign="top">Delta Company</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Visual Gaming</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">3</td>
+	<td valign="top">Menace To Society</td>
+	<td valign="top">Passive Aggressor</td>
+	<td valign="top">Visual Gaming</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">4</td>
+	<td valign="top">50 Calibre Gaming</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">OhNoes</td>
+	<td valign="top">Check Six</td>
+</tr>
+<tr>
+	<td valign="top">5</td>
+	<td valign="top">Think Twice</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Frag Dominant</td>
+	<td valign="top">compLexity</td>
+</tr>
+<tr>
+	<td valign="top">6</td>
+	<td valign="top">Mantastic 6</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Enervate Gaming</td>
+	<td valign="top">Nomadic Soldiers</td>
+</tr>
+<tr>
+	<td valign="top">7</td>
+	<td valign="top">Epitome</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Notik</td>
+	<td valign="top">EX</td>
+</tr>
+<tr>
+	<td valign="top">8</td>
+	<td valign="top">Surprise in a box</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">The Chosen Ones </td>
+	<td valign="top"><span style="font-size:9pt">shrek's winning awesome team</span></td>
+</tr>
+<tr>
+	<td valign="top">9</td>
+	<td valign="top">Never Xpected</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">STFU Im Out!</td>
+	<td valign="top">hijacked</td>
+</tr>
+<tr>
+	<td valign="top">10</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+</table>
+<font size="-1"><i>Notes: CAL-O Season 1 Grand Clan defeated Nomadic Soldiers by the match being overturned due to NS playing with an ineligible player.
+Ostrich and Visual Gaming are the same team. Between Season 3 and 4 division Main became Invite and Division Intermediate became Main.  In Season 5 the Cone of Fire plugin was used.</i></font>
+</div>
+<div id="divCALSdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="calsToTop" src="top.gif" border="0"></a><p>
+
+
+<a name="tpg2"></a>
+<div id="divTPG2header" width="555">
+	<img id="tpg2Toggle" onDoubleClick="setVisibility('divTPG2', 'tpg2Toggle', 'toggle');" onClick="setVisibility('divTPG2', 'tpg2Toggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">The Proving Grounds (Formerly TPG2)</h3>
+</div>
+<div id="divTPG2" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Middle &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Upper &nbsp; &nbsp; &nbsp;&nbsp; &nbsp &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="3"><b>League Started With DOD 1.3</b></td>
+</tr>
+<tr>
+	<td valign="top"><span title="11/23/04 - 2/15/05">1</span></td>
+	<td valign="top">LS247</td>
+	<td valign="top">Can't Operate Weapons</td>
+	<td valign="top">Team risK</td>
+</tr>
+<tr>
+	<td valign="top"><span title="3/8/05 - 7/5/05">2</span></td>
+	<td valign="top">sKillGamer'z</td>
+	<td valign="top">Nexus</td>
+	<td valign="top">RBC</td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/26/05 - 10/18/05">3</span></td>
+	<td valign="top">handicap</td>
+	<td valign="top">Gun Slingin' Southerners</td>
+	<td valign="top">vEx</td>
+</tr>
+<tr>
+	<td valign="top" colspan="3"><b>League Switched to DOD Source</b></td>
+</tr>
+<tr>
+	<td valign="top">4</td>
+	<td valign="top">Nomadic Soliders</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">5</td>
+	<td valign="top">Go F*** Yourself </td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">TooN</td>
+</tr>
+<tr>
+	<td valign="top">6</td>
+	<td valign="top">Totally Cool Boys</td>
+	<td valign="top">Tech-Vue</td>
+	<td valign="top">Visual Gaming</td>
+</tr>
+<tr>
+	<td valign="top"><span title="12/5/06 - 2/20/07">7</span></td>
+	<td valign="top">Pancake Time</td>
+	<td valign="top">Vice</td>
+	<td valign="top">Pub Starz</td>
+</tr>
+<tr>
+	<td valign="top"><span title="3/6/07 - 6/5/07">8</span><!--COF plugin starts--></td>
+	<td valign="top">kinetic gaming</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Nothing 2 Prove</td>
+</tr>
+<tr>
+	<td valign="top"><span title="6/12/07 - 9/18/07">9</td>
+	<td valign="top">Excellence Violence e-sports</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="4"><b>League Canceled After Season 9</b></td>
+</tr>
+</table>
+<font size="-1"><i>Notes: Pub Starz and Nothing 2 Prove are the same team just renamed.</i></font>
+</div>
+<div id="divTPG2disabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="tpg2ToTop" src="top.gif" border="0"></a><p>
+
+<a name="tpg3v3source"></a>
+<div id="divTPG3v3sourceheader" width="555">
+	<img id="tpg3v3sourceToggle" onDoubleClick="setVisibility('divTPG3v3source', 'tpg3v3sourceToggle', 'toggle');" onClick="setVisibility('divTPG3v3source', 'tpg3v3sourceToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">The Proving Grounds 3v3 (DOD Source)</h3>
+</div>
+<div id="divTPG3v3source" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="2/1/07 - 5/10/07">1</span></td>
+	<td valign="top">Clan [Pokemon]</td>
+</tr>
+<tr>
+	<td valign="top" colspan="2"><b>League Canceled After Season 1</b></td>
+</tr>
+</table>
+<font size="-1"><i>Notes: </i></font>
+</div>
+<div id="divTPG3v3sourcedisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="tpg3sourceToTop" src="top.gif" border="0"></a><p>
+
+<a name="ss5v5source"></a>
+<div id="divSS5v5Sheader" width="555">
+	<img id="ss5v5sourceToggle" onDoubleClick="setVisibility('divSS5v5S', 'ss5v5sourceToggle', 'toggle');" onClick="setVisibility('divSS5v5S', 'ss5v5sourceToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">CAL Steel Series 5v5 Tournament (DOD Source)</h3>
+</div>
+<div id="divSS5v5S" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower Tier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Upper Tier &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+</tr>
+<tr>
+	<td valign="top"><span title="5/17/07 - 7/12/07">1</span></td>
+	<td valign="top">Deadbolt</td>
+	<td valign="top">Skull Gaming</td>
+</tr>
+</table>
+<font size="-1"><i>Prizes:<br>
+<strong>Upper Tier:</strong><br>
+Skull Gaming, 1st Place: 5 SteelSound 4H Headsets<br>
+ghadGaming, 2nd Place: 5 SteelPad S&amp;S solo Mousepads<br>
+Red Fusion, 3rd Place: 5 SteelPad QcK heavy Mousepads<br>
+Team Stick'em, 4th Place: 5 SteelPad Qck mini Mousepads<br><br>
+<strong>Lower Tier:</strong><br>
+Deadbolt, 1st Place: 5 SteelSound 3H Headsets<br>
+Mug N Mouse, 2nd Place: 5 SteelPad S&amp;S solo Mousepads<br>
+w0rd Gaming Syndicate, 3rd Place: 5 SteelPad Qck mini Mousepads</i></font>
+</div>
+<div id="divSS5v5Sdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="ss5v5sToTop" src="top.gif" border="0"></a><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------- DOD 1.3 Leagues Start Here ------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="tpg"></a>
+<div id="divTPGheader" width="555">
+	<img id="tpgToggle" onDoubleClick="setVisibility('divTPG', 'tpgToggle', 'toggle');" onClick="setVisibility('divTPG', 'tpgToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">The Proving Grounds (DOD 1.3)</h3>
+</div>
+<div id="divTPG" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Intermediate &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Middle &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Upper &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/29/02 - 10/10/02">1</span></td>
+	<td valign="top"><i>None Declared</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="10/17/02 - 1/5/03">2</span></td>
+	<td valign="top">Fx</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" align="right"><i>East Upper:</i></td>
+	<td valign="top">Urban Legends</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" align="right"><i>West Upper:</i></td>
+	<td valign="top">QGB Rage</td>
+</tr>
+<tr>
+	<td valign="top"><span title="2/2/03 - 3/23/03">3</span></td>
+	<td valign="top">Blitzkrieg Squad</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Pokemon</td>
+	<td valign="top">5.o</td>
+</tr>
+<tr>
+	<td valign="top"><span title="5/18/03 - 9/7/03">4</span></td>
+	<td valign="top">36th Infantry Division</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Fx</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/28/03 - 12/21/03">5</span></td>
+	<td valign="top">Anti-Virus</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Dirty Ghetto Fucks</td>
+</tr>
+<tr>
+	<td valign="top"><span title="1/18/04 - 4/25/04 ">6</span></td>
+	<td valign="top">Killers In The Woods</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Fx</td>
+</tr>
+<tr>
+	<td valign="top"><span title="5/16/04 - 8/22/04 ">7</span></td>
+	<td valign="top">GIMP</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">DerStuhl</td>
+	<td valign="top">aCtion</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/12/04 - 12/12/04">8</span></td>
+	<td valign="top">Pub-X</td>
+	<td valign="top">Victory Party</td>
+	<td valign="top">Itchy Trigger Finger</td>
+	<td valign="top">Anti-Virus</td>
+</tr>
+<tr>
+	<td valign="top"><span title="1/2/05 - 4/10/05">9</span></td>
+	<td valign="top"><span style="font-size:10pt">Something With An A</span></td>
+	<td valign="top">Quebec Patriots</td>
+	<td valign="top">Detachment Alpha</td>
+	<td valign="top">Inevitable Demise</td>
+</tr>
+<tr>
+	<td valign="top"><span title="4/17/05 - 7/3/05">10</span></td>
+	<td valign="top">Emerald Force</td>
+	<td valign="top">Ghost</td>
+	<td valign="top">Rise of Legends</td>
+	<td valign="top">Infinity Gaming</td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/24/05 - 10/16/05">11</span></td>
+	<td valign="top">General Infantry</td>
+	<td valign="top">Surprise In A Box</td>
+	<td valign="top">Rise of Legends</td>
+	<td valign="top">skull</td>
+</tr>
+<tr>
+	<td valign="top"><span title="1/8/06 - 3/4/06">12</span></td>
+	<td valign="top">revamped</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="3/12/06 - 7/2/06">13</span></td>
+	<td valign="top">Victory Party</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Cal Teriblez</td>
+	<td valign="top">ARMY</td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/23/06 - 11/12/06">14</span></td>
+	<td valign="top">RancH!</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top"><span style="font-size:10pt">DoppleGanger Syndicate</span></td>
+	<td valign="top">ARMY</td>
+</tr>
+<tr>
+	<td valign="top"><span title="12-10-06 - 3/25/07">15</span></td>
+	<td valign="top">Not Impressed</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Markomania</td>
+	<td valign="bottom"><span style="font-size:10pt">Habibs Money Crew</span></td>
+</tr>
+<tr>
+	<td valign="top"><span title="4/1/07 - 8/8/07">16</span></td>
+	<td valign="top"><span style="font-size:10pt">Fallen Soldiers Reborn</span></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top"><span style="font-size:9pt">Xtremely Tasty Cupcakes</span></td>
+	<td valign="top">Super!</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/9/07 - 12/9/07">17</span></td>
+	<td valign="top">Nascidos Pro Game</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Dynasty</td>
+	<td valign="top">THUNDER</td>
+</tr>
+<tr>
+	<td valign="top"><span title="1/20/08 - 4/27/08">18</span></td>
+	<td valign="top">With class</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">agaXando</td>
+	<td valign="top"><span style="font-size:10pt">Nascidos Pro Game</span></td>
+</tr>
+<tr>
+	<td valign="top"><span title="5/18/08 - 9/17/08">19</span></td>
+	<td valign="top">DeucesWild</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Man the Periscope</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/7/08 - 12/21/08">20</span></td>
+	<td valign="top">Game Spy Rangers</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Brittany's Vent Crew</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="2/15/09 - 6/5/09">21</span></td>
+	<td valign="top">Natural Born Killers</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Man the Periscope</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="2/15/09 - 6/5/09">22</span></td>
+	<td valign="top" colspan="2">This Romantic Tragedy <i>(USA)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">[B]add</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" colspan="2">DreamWorks <i>(South America)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="6/27/10 - 10/17/10">23</span></td>
+	<td valign="top">Donkey PunchN Krew <i>(USA)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">iwa</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" colspan="2">DreamWorks <i>(South America)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="11/7/10 - 3/13/11">24</span></td>
+	<td valign="top">Shut Up and Party <i>(USA)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">iwa</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" colspan="2">CNB Gaming <i>(South America)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="4/3/11 - 7/10/11">25</span></td>
+	<td valign="top">Heavy Hitters <i>(USA)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">THUNDER</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" colspan="2">DreamWorks <i>(South America)</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="8/14/11 - 11/6/11">26</span></td>
+	<td valign="top">codename:killers</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Mindflow</td>
+	<td valign="top">THUNDER</td>
+</tr>
+<tr>
+	<td valign="top"><span title="12/11/11 - 4/1/12">27</span></td>
+	<td valign="top">Kevlar's Widowers</td>
+	<td valign="top">Kevlar Soul</td>
+	<td valign="top">3xtreme Humiliation</td>
+	<td valign="top">G.SKILL</td>
+</tr>
+</table>
+<font size="-1"><i>Notes: The season 1 finals match was never played due to a scheduling dispute.  Season 2 had separate east and west divisions for Upper.  In TPG-M season 21 Man the Periscope won by the match being overturned since Evil Geniuses played with a banned player.  Season 22 [B]add is dgf renamed.</a></i></font>
+</div>
+<div id="divTPGdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="tpgToTop" src="top.gif" border="0"></a><p>
+
+
+
+<a name="tpg3v3"></a>
+<div id="divTPG3v3header" width="555">
+	<img id="tpg3v3Toggle" onDoubleClick="setVisibility('divTPG3v3', 'tpg3v3Toggle', 'toggle');" onClick="setVisibility('divTPG3v3', 'tpg3v3Toggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">The Proving Grounds 3v3 (DOD 1.3)</h3>
+</div>
+<div id="divTPG3v3" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Middle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Upper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/12/04 - 12/12/04">1</span></td>
+	<td valign="top">Unsung Heroes</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="1/10/05 - 4/11/05">2</span></td>
+	<td valign="top">69th Cowfantry</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Unsung Heroes</td>
+</tr>
+<tr>
+	<td valign="top"><span title="4/25/05 - 7/18/05">3</span></td>
+	<td valign="top">Allied Army Mixed</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Elite [Ass]asins</td>
+</tr>
+<tr>
+	<td valign="top"><span title="8/22/05 - 11/28/05">4</span></td>
+	<td valign="top">Victory Party</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Synergy</td>
+</tr>
+<tr>
+	<td valign="top"><span title="12/12/05 - 03/20/06">5</span></td>
+	<td valign="top">Storm Troopers</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="3/27/06 - 6/26/06">6</span></td>
+	<td valign="top"><i>None Declared</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top"><span style="font-size:9pt">The Unbathed and Unshaved</span></td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/24/06 - 11/06/06">7</span></td>
+	<td valign="top">Last Full Measure</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">LoLLerBombs</td>
+</tr>
+<tr>
+	<td valign="top"><span title="12/4/06 - 3/19/07">8</span></td>
+	<td valign="top">Multi Kill Teammates</td>
+	<td valign="top">Cute Animal Cult</td>
+	<td valign="top">iCON</td>
+</tr>
+<tr>
+	<td valign="top"><span title="4/2/07 - 7/9/07">9</span></td>
+	<td valign="top">Up In Smoke</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Sly Player |s Near</td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/16/07 - 10/22/07">10</span></td>
+	<td valign="top"><span style="font-size:9pt">Organization of the Zodiac</span></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top"><span style="font-size:9pt">Emergency Measures Taken!</span></td>
+</tr>
+<tr>
+	<td valign="top"><span title="10/29/07 - 2/12/08">11</span></td>
+	<td valign="top">NorthSquad</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Total Annihilation²</td>
+</tr>
+<tr>
+	<td valign="top"><span title="2/28/08 - 5/19/08">12</span></td>
+	<td valign="top">Total Annihilation²</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="6/2/08 - 8/18/08">13</span></td>
+	<td valign="top">Shadow Gaming</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/15/08 - 12/8/08">14</span></td>
+	<td valign="top">[JAZ&amp;CO]</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/22/09 - 9/23/09">15</span></td>
+	<td valign="top">Kool Kids Klub</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="7/25/10 - 7/7/10">16</span></td>
+	<td valign="top">Sem Dó Nem Piedade</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="3/15/11 - 6/22/11">17</span></td>
+	<td valign="top">Dirty Ghetto Fucks</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+</table>
+<font size="-1"><i>Notes: In season 6 there was no winner of the lower division because neither team ever agreed on a time to play the match.</i></font>
+</div>
+<div id="divTPG3v3disabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="tpg3ToTop" src="top.gif" border="0"></a><p>
+
+
+
+<a name="cevo"></a>
+<div id="divCEVOheader" width="555">
+	<img id="cevoToggle" onDoubleClick="setVisibility('divCEVO', 'cevoToggle', 'toggle');" onClick="setVisibility('divCEVO', 'cevoToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">Cyber Evolution (DOD 1.3)</h3>
+</div>
+<div id="divCEVO" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Amateur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Professional &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">Season 1</td>
+	<td valign="top">AlmostPro</td>
+	<td valign="top">Complexity</td>
+</tr>
+<tr>
+	<td valign="top" colspan="3"><b>League Canceled After Season 1, but later restarted.</b></td>
+</tr>
+<tr>
+	<td valign="top">Tourney 1</td>
+	<td valign="top">jetty</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">Season 2</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+</table>
+<font size="-1"><i>Notes: None</i></font>
+</div>
+<div id="divCEVOdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="cevoToTop" src="top.gif" border="0"></a><p>
+
+
+
+<a name="cal"></a>
+<div id="divCALheader" width="555">
+	<img id="calToggle" onDoubleClick="setVisibility('divCAL', 'calToggle', 'toggle');" onClick="setVisibility('divCAL', 'calToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">Cyberahlete Amateur League (DOD 1.3)</h3>
+</div>
+<div id="divCAL" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Open &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Intermediate &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Main &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Invite &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+</tr>
+<tr>
+	<td valign="top">1</td>
+	<td valign="top">101st Airborne</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">2</td>
+	<td valign="top">Neo Hunting Nation</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">NUDE Clan</td>
+</tr>
+<tr>
+	<td valign="top">3</td>
+	<td valign="top">Dead 3dge Krew</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Vigilante Elite</td>
+</tr>
+<tr>
+	<td valign="top">4</td>
+	<td valign="top">Sucks At DOD</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Team LOL</td>
+	<td valign="top">Vigilante Elite</td>
+</tr>
+<tr>
+	<td valign="top">5</td>
+	<td valign="top"><i>None Declared</i></td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Dirty Ghetto Fucks</td>
+	<td valign="top">Shockwave</td>
+</tr>
+<tr>
+	<td valign="top">6</td>
+	<td valign="top">Shut up and Die</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">[e]xceptional</td>
+	<td valign="top">GameWyze</td>
+</tr>
+<tr>
+	<td valign="top">7</td>
+	<td valign="top">Zero Effect</td>
+	<td valign="top">B. B. of Bastogne</td>
+	<td valign="top">Team Ronin</td>
+	<td valign="top">Menace To Society</td>
+</tr>
+<tr>
+	<td valign="top">8</td>
+	<td valign="top">Pineriders</td>
+	<td valign="top">SKULL</td>
+	<td valign="top">Trademark</td>
+	<td valign="top">Check Six</td>
+</tr>
+<tr>
+	<td valign="top">9</td>
+	<td valign="top">Chechnyan Sex Bombs</td>
+	<td valign="top">Awesome Sauce</td>
+	<td valign="top">irresistible</td>
+	<td valign="top">Trademark</td>
+</tr>
+<tr>
+	<td valign="top">10</td>
+	<td valign="top">pernicious Vengeance</td>
+	<td valign="top">That's A Paddlin</td>
+	<td valign="top">New Dominion</td>
+	<td valign="top">Check Six</td>
+</tr>
+<tr>
+	<td valign="top">11</td>
+	<td valign="top">Flashpoint</td>
+	<td valign="top">Gaming Royalty</td>
+	<td valign="top">vEx</td>
+	<td valign="top">CompLexity</td>
+</tr>
+<tr>
+	<td valign="top">12</td>
+	<td valign="top">Precision exceLLence</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">GIMP</td>
+	<td valign="top">LATELATELATE</td>
+</tr>
+<tr>
+	<td valign="top">13</td>
+	<td valign="top">Victory Party</td>
+	<td valign="top">oldsKool</td>
+	<td valign="top">irawrgamers</td>
+	<td valign="top">CompLexity</td>
+</tr>
+<tr>
+	<td valign="top">14</td>
+	<td valign="top">popuLarity</td>
+	<td valign="top">Victory Party</td>
+	<td valign="top">flat-out</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="5"><b>League Canceled During Season 15, but later restarted</b></td>
+</tr>
+<tr>
+<tr>
+	<td valign="top">16</td>
+	<td valign="top" colspan="2"><i>Omega Open:</i> &nbsp;LATELATELATE</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">&nbsp;</td>
+	<td valign="top" colspan="2"><i>Theta Open:</i> &nbsp;&nbsp;&nbsp;PaNdAdoGz</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">17</td>
+	<td valign="top">Nascidos Pro Game</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Thats A Paddlin'</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">18</td>
+	<td valign="top">ProFound</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Good 4 Nothing</td>
+	<td valign="top">Frag Dominant</td>
+</tr>
+<tr>
+	<td valign="top">19</td>
+	<td valign="top">High Precision</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top"><span style="font-size:9pt">NoGo Gaming Faction</span></td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">20</td>
+	<td valign="top">Led by Element</td>
+	<td valign="top">Elite Assassins</td>
+	<td valign="top">jetty</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="5"><b>League Canceled During Season 21</b></td>
+</tr>
+</table>
+<font size="-1"><i>Notes: CAL-O Season 4 was won on an overturned match when IRS of Unknown Killaz was caught cheating.  CAL-O Season 5 was between vtec and 1st Infantry Division, but both teams were disqualifed in the finals. That match happened to go into overtime.  Also, Team LOL and Shockwave were the same team, but renamed. d3k was a short-lived break off of UGA.  Check Six was also formerly known as GameWyze.  In CAL-IM season 10 That's A Paddlin won by the match being overturned since Dying Breed played with a banned ringer.  Trademark and Complexity are the same team, but renamed.</i></font>
+</div>
+<div id="divCALdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="calToTop" src="top.gif" style="border:0"></a><p>
+
+
+<a name="cpl"></a>
+<div id="divCPLheader" width="555">
+	<img id="cplToggle" onDoubleClick="setVisibility('divCPL', 'cplToggle', 'toggle');" onClick="setVisibility('divCPL', 'cplToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">Cyberathlete Professional League (DOD 1.3)</h3>
+</div>
+<div id="divCPL" width="555" style="border:1px solid gray">
+<b>Summer 2006:</b>
+<pre>
+1st Place: compLexity         $5,100
+2nd Place: Revolution Sports  $2,700
+3rd Place: dicE               $1,600
+4th Place: PhrenetiK          $900
+5th Place: aborted            $0
+6th Place: Pandemic           $0
+</pre>
+<b>Summer 2005:</b>
+<pre>1st Place: Check Six         $9,000
+2nd Place: compLexity        $6,900
+3rd Place: Pandemic          $5,100
+4th Place: Rats of Tobruk    $3,600
+5th Place: Highball          $2,400
+6th Place: Unknown Killerz   $1,500
+</pre>
+<b>Winter 2004:</b>
+<pre>1st Place: Highball          $3,000
+2nd Place: Check Six         $2,500
+3rd Place: Karma Police      $2,000
+4th Place: Lawn Chair Mafia  $1,500
+5th Place: Xeno              $1,000
+</pre>
+<i>Notes: Lawn Chair Mafia and Pandemic are the same team.  Unknown Killaz and Karma Police are also the same team.  Revolution Sports and XENO are also the same team.</i>
+</div>
+<div id="divCPLdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="cplToTop" src="top.gif" border="0"></a><p>
+
+<a name="tpg7v7"></a>
+<div id="divTPG7v7header" width="555">
+	<img id="tpg7v7Toggle" onDoubleClick="setVisibility('divTPG7v7', 'tpg7v7Toggle', 'toggle');" onClick="setVisibility('divTPG7v7', 'tpg7v7Toggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">The Proving Grounds 7v7 (DOD 1.3)</h3>
+</div>
+<div id="divTPG7v7" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Lower &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Upper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top"><span title="5/18/03 - 9/7/03">4</span></td>
+	<td valign="top">Game0n</td>
+	<td valign="top">Fusion</td>
+</tr>
+<tr>
+	<td valign="top"><span title="9/28/03 - 12/21/03">5</span></td>
+	<td valign="top">Infantry From Hell</td>
+	<td valign="top">5.o</td>
+</tr>
+</table>
+<font size="-1"><i>Notes: TPG 7v7 season numbers corresponded with TPG 6v6 season numbers as they were played concurrently.</i></font>
+</div>
+<div id="divTPG7v7disabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="tpg7v7ToTop" src="top.gif" border="0"></a><p>
+
+
+
+<a name="sta"></a>
+<div id="divSTAheader" width="555">
+	<img id="staToggle" onDoubleClick="setVisibility('divSTA', 'staToggle', 'toggle');" onClick="setVisibility('divSTA', 'staToggle', 'toggle');" src="minus.gif" style="visibility:hidden; display:inline">&nbsp;
+	<h3 style="margin-bottom:0px;padding-bottom:0px;display:inline">Stronger Than All (DOD 1.3)</h3>
+</div>
+<div id="divSTA" width="555" style="border:1px solid gray">
+<table border="0">
+<tr>
+	<td class="menuhead" bgcolor="#525252">Season &nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Copper &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Silver &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</td>
+	<td class="menuhead" bgcolor="#525252">Gold &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top" colspan="5"><b>No information could be located for seasons 1 through 4.</b></td>
+</tr>
+<tr>
+	<td valign="top">5</td>
+	<td valign="top">[DiNk]</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td valign="top">6</td>
+	<td valign="top">mXg!</td>
+	<td valign="top">DONUTS</td>
+	<td valign="top">RBC</td>
+</tr>
+<tr>
+	<td valign="top">7</td>
+	<td valign="top">SKULL</td>
+	<td valign="top">BAH</td>
+	<td valign="top">5.o</td>
+</tr>
+<tr>
+	<td valign="top">8</td>
+	<td valign="top">MP</td>
+	<td valign="top">reV</td>
+	<td valign="top">STR</td>
+</tr>
+<tr>
+	<td valign="top">9</td>
+	<td valign="top">Ghost</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">P08</td>
+</tr>
+<tr>
+	<td valign="top">10</td>
+	<td valign="top">&nbsp;</td>
+	<td valign="top">Alamo Scouts</td>
+	<td valign="top">STR</td>
+</tr>
+<tr>
+	<td valign="top" colspan="5"><b>League Canceled During Season 11</b></td>
+</tr>
+</table>
+<font size="-1"><i>Notes: Need full names for the clans and information about the first 4 seasons.</i></font>
+</div>
+<div id="divSTAdisabled" width="555" style="border:1px solid gray;visibility:hidden;display:none">
+	<i>... click the + to expand</i>
+</div>
+<a href="#top"><img id="staToTop" src="top.gif" style="border:0"></a><p>
+
+<!-- END NEWS ----------------------------------------------------------------------------->
+</td>
+</tr>
+<tr>
+<!-- AFFLIATES -->
+
+<td align="left" valign="top" class="buttonline" colspan="2"> 
+	<a href="http://www.dayofdefeat.com/forums/" onmouseout="blur();" onclick="blur();" onmouseover="blur();"><img src="dodbutton.gif" border="0"></a> &nbsp;
+	<a href="http://www.mardymouse.co.uk/" onmouseout="blur();" onclick="blur();" onmouseover="blur();"><img src="mardymouse.jpg" border="0"></a> &nbsp;
+	<a href="http://www.tpgleague.org/" onmouseout="blur();" onclick="blur();" onmouseover="blur();"><img src="tpgleague.jpg" border="0"></a> &nbsp;
+	<a href="http://www.ironcityevil.com/" onmouseout="blur();" onclick="blur();" onmouseover="blur();"><img src="ice-affil.gif" border="0"></a> &nbsp;
+	<a href="http://www.sunlitgames.net/sldl_main.php" onmouseout="blur();" onclick="blur();" onmouseover="blur();"><img src="sldl_link.jpg" border="0"></a> &nbsp;
+	<a href="http://www.gotfrag.com/dod/forums/3/" onmouseout="blur();" onclick="blur();" onmouseover="blur();"><img src="gotfrag.jpg" border="0"></a> &nbsp;
+
+
+	 
+<!-- END AFFLIATES -->
+	</td>
+</tr>
+</table>
+
+</body>
+</html>
